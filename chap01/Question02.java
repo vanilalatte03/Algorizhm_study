@@ -15,6 +15,7 @@ public class Question02 {
     }
   }
 public static void main(String[] args) {
+  @SuppressWarnings("resource")
   Scanner stdIn = new Scanner(System.in);
 
   System.out.print("a=의 값 : "); int a = stdIn.nextInt();

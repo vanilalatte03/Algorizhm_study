@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class JudgeSign {
   public static void main(String[] args) {
+    @SuppressWarnings("resource")
     Scanner stdIn = new Scanner(System.in);
 
     System.out.println("정수를 입력하세요: ");
